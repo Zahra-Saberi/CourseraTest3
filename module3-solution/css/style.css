@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: 'Georgia';
+}
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #9e0020;
+}
+.menu-title h1{
+  font-size: 1.75em;
+	color: white;
+  margin-top: 35px;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+.menu-content{
+	font-size: 1em;
+	background-color: #ffedda;
+}
+.menu-content p{
+	margin: 20px;
+}
+.title-chicken{
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+}
+#page-head{
+	padding: 20px;
+	background-color: #e89c31;
+}
+#brand-name a{
+	color: black;
+	font-size: 1.75em;
+	font-weight: bold;
+	text-decoration: none;
+}
+#mytoggle{
+	border: 2px solid black;
+	margin-right: 50px;
+}
+#toggle-item{
+	background-color: black;
+}
+.items{
+	background-color: #6fcb9f;
+	border-bottom: 1px solid black;
+	color: black;
+}
+.menu-item:hover{
+	background-color: #fffeb3;
+	color: black
+}
+.item-name{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
